@@ -29,6 +29,6 @@ jobs:
         node-version:12
       -name: install surge
        uses: npm install -g surge
-     -name: run surge
-       uses:surge./.newapp.surge.sh--token ${{secrets.SURGE_TOKEN}}
+      -name: run surge
+       uses: surge /.newapp.surge.sh--token ${{secrets.SURGE_TOKEN}}
         
